@@ -1,0 +1,65 @@
+first steps:
+> npm init
+	install dependencies
+	> npm install express
+
+
+collection / user data model | dummy placeholder: to be refined soon
+
+db: users_db
+collection: users
+
+[{
+	"personal": {
+		"user_name": "user_1",
+		"joined_timestamp": "220920200000"
+	},
+	"prescription": {
+		"image": "image blob placeholder",
+		"doctor": "doctor_1",
+		"image_text": "prescription ocr placeholder",
+		"metadata": "some notes/description"
+	},
+	"xray": {
+		"timestamp": "time_string_ISO",
+		"images": {
+			"image0": "image blob placeholder",
+			"image1": "image blob placeholder",
+			"image2": "image blob placeholder",
+		},
+		"metadata": "relevant info"
+	},
+	"mri": {
+		"details": "expected in v2"
+	},
+	"healthstats": {
+		"details": "expected in v2"
+	}
+},
+{
+	"personal": {
+		"user_name": "user_2",
+		"joined_timestamp": "220920200000"
+	},
+	"prescription": {
+		"image": "image blob placeholder",
+		"doctor": "doctor_2",
+		"image_text": "prescription ocr placeholder",
+		"metadata": "some notes/description"
+	},
+	"xray": {
+		"timestamp": "time_string_ISO",
+		"images": {
+			"image0": "image blob placeholder",
+			"image1": "image blob placeholder",
+			"image2": "image blob placeholder",
+		},
+		"metadata": "relevant info"
+	},
+	"mri": {
+		"details": "expected in v2"
+	},
+	"healthstats": {
+		"details": "expected in v2"
+	}
+}]
